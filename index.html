@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment 5</title>
+</head>
+<body>
+    <script>
+         var num1 =3 
+         var num2 = 5
+         var sum = (num1 + num2) 
+           document.write("<h1>sum</h1> of "+ num1 +" and "+ num2+ " is " + sum + "<br>")
+
+
+         var num1 = 2
+        var num2 = 10
+        var multi = (num1 * num2)
+         document.write("<h1>multiplication</h1> of "+ num1 +" and "+ num2+ " is " + multi + "<br>")
+
+
+         var num1 = 2
+        var num2 = 1
+        var sub = (num1 - num2)
+        document.write("<h1>subtraction</h1> of "+ num1 +" and "+ num2+ " is " + sub+ "<br>")
+
+
+        var num1 =10
+        var num2 =2
+        var div = (num1 / num2)
+         document.write("<h1>division</h1> of "+ num1 +" and "+ num2+ " is " + div+ "<br>")
+
+         var num1 = 5
+        var num2 = 2
+        var mod = (num1 % num2)
+         document.write("<h1>modulus</h1> of "+ num1 +" and "+ num2+ " is " + mod)
+
+
+ // Declare a variable.
+var variable;
+// Show the value of variable in your browser like “Value after variable declaration is: ??”.
+document.write("Value after variable declaration is:" +  variable + '<br>');
+// Initialize the variable with some number.
+variable = 5;
+// Show the value of variable in your browser like “Initial value: 5”.
+document.write("Initial value:" + variable + " <br>");
+// Increment the variable.
+variable++;
+// Show the value of variable in your browser like “Value after increment is: 6”.
+document.write("Value after increment is:" + variable +"<br>");
+// Add 7 to the variable.
+variable += 7;
+// Show the value of variable in your browser like “Value after addition is: 13”.
+document.write("Value after addition is:" + variable + "<br>");
+// Decrement the variable.
+variable--;
+// Show the value of variable in your browser like “Value after decrement is: 12”.
+document.write("Value after decrement is:" + variable +"<br>");
+// Show the remainder after dividing the variable’s value by 3.
+var remainder = variable % 3;
+// Output : “The remainder is : 0”.
+document.write("The remainder is:" + remainder + "<br>"  + "<br>");
+
+
+
+         var ticketPrice = 600;
+         var baying = 5
+         document.write("Total cost to buy 5 tickets to a movei is  "+ticketPrice * baying+ "PKR" )
+     
+     //Table:
+     var table = prompt("Konsa Table chaiye apko?")
+     document.write("<h1>Table</h1>" + table + "X 1  =" + table*1+"<br>")
+     document.write(table + "X 2  =" + table*2+"<br>")
+     document.write(table + "X 3  =" + table*3+"<br>")
+     document.write(table + "X 4  =" + table*4+"<br>")
+     document.write(table + "X 5  =" + table*5+"<br>")
+     document.write(table + "X 6  =" + table*6+"<br>")
+     document.write(table + "X 7  =" + table*7+"<br>")
+     document.write(table + "X 8  =" + table*8+"<br>")
+     document.write(table + "X 9  =" + table*9+"<br>")
+     document.write(table + "X 10  =" + table*10)
+
+     // Step a: Store a Celsius temperature into a variable
+var celsiusTemperature = parseFloat(prompt("Enter a temperature in Celsius:"));
+
+// Step b: Convert Celsius to Fahrenheit and output the result
+var fahrenheitTemperature = (celsiusTemperature * 9/5) + 32;
+console.log(`${celsiusTemperature}°C is ${fahrenheitTemperature}°F`);
+
+//Step c: Store a Fahrenheit temperature into a variable
+var fahrenheitTemperature = parseFloat(prompt("Enter a temperature in Fahrenheit:"));
+
+// Step d: Convert Fahrenheit to Celsius and output the result
+var celsiusTemperature = (fahrenheitTemperature - 32) * 5/9;
+console.log(`${fahrenheitTemperature}°F is ${celsiusTemperature}°C`);
+
+document.write("<h1>Shopping Cart</h1>") 
+ var goldring = 650
+ var  chicken =100
+ var shippingcharges = 100
+  var qty1 = prompt("quantity of goldring ?", 2)
+  var qty2 = prompt("quantity of chicken ?" , 2)
+  document.write("price of goldring is " + goldring + "<br>")
+  document.write("quantity of goldring is " + qty1 + "<br>")
+  document.write("price of chicken is " + chicken + "<br>" )
+  document.write("quantity of chicken is " + qty2 + "<br>")
+  document.write("shipping charges is " + shippingcharges  + "<br>" + "<br>")
+ document.write("Total cost your order is " + (goldring*qty1 + chicken*qty2 + shippingcharges)  )
+
+ document.write("<h1>Mark Sheet</h1>") 
+totalmarks = 980
+obtainedmarks = 804
+document.write("Total marks: " +totalmarks+ "<br>") 
+document.write("Obtained marks: " +obtainedmarks+ "<br>") 
+document.write("Percentage: "+(obtainedmarks/totalmarks)*100 +"%")
+
+
+
+document.write("<h1>Currency in PKR</h1>") 
+var USdollars= 104.80
+var SaudiRiyals = 28
+var totaldollar = USdollars*10
+var totalriyal =  SaudiRiyals*25
+document.write("Total currency in PKR: "+ (totaldollar+totalriyal))
+
+// Initialize the variable with some number
+var initialNumber = 10; 
+var result = ((initialNumber + 5) * 10) / 2; 
+console.log("The result is:", result);
+
+document.write("<h1>Age Calculator</h1>") 
+var currentYear = 2024
+var birthYear = 2000
+document.write( "Your age is: "+(currentYear-birthYear) )
+
+document.write("<h1>The Geometrizer</h1>") 
+var radius = 20;
+var pi = 3.142; // The value of π
+var circumference = 2 * pi * radius;
+var area = pi * radius * radius;
+// Output the results
+document.write("Radius of a circle: "+ radius+ "<br>")
+document.write("The circumference is: "+ circumference+ "<br>");
+document.write("The area is"+ area);
+
+document.write("<h1>The Lifetime Supply Calculator:</h1>") 
+// a. Store your favorite snack into a variable
+var favoriteSnack = "chocolate chip"; 
+
+// b. Store your current age into a variable
+var currentAge = 15; // Replace with your current age
+
+// c. Store a maximum age into a variable
+var maximumAge = 65; // Replace with your maximum age
+
+// d. Store an estimated amount per day
+var amountPerDay = 3; // Replace with your estimated daily consumption
+
+// e. Calculate how many you would eat in total for the rest of your life
+var yearsRemaining = maximumAge - currentAge;
+var totalSnacksRequired = (yearsRemaining * 365) * amountPerDay;
+
+// Output the result to the screen
+document.write(`You will need ${totalSnacksRequired} ${favoriteSnack} to last you until the ripe old age of ${maximumAge}.`);
+
+
+   </script>
+</body>
+</html>
